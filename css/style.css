@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(223, 201, 223);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 4px;
+    
+}
+
+button:hover {
+    background-color: rgb(165, 16, 165);
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day-names {
+    display: contents;
+    font-weight: bold;
+    color: purple;
+}
+
+.days {
+    display: contents;
+}
+
+.day-names div, .days div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+#month-year {
+    color: purple; 
+    text-align: center; 
+}
+
+
+
